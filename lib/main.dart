@@ -70,6 +70,7 @@ class _MyHomePageState extends State<MyHomePage> {
   double? temp = 00.0;
   String? cityV = "";
   Future weather() async {
+    countryV = '';
     await getLocation();
     http.Response response = await http.get(Uri.parse(
         'https://api.weatherapi.com/v1/current.json?key=3ddf22eb7fd449fcb23111518211207&q=${tcity ?? "Ramallah"}&aqi=yes'));
@@ -136,6 +137,11 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                 ]),
               ),
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: weather,
+        backgroundColor: Colors.black,
+        child: const Icon(Icons.refresh),
       ),
     );
   }
