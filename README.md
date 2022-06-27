@@ -1,16 +1,13 @@
-# weather
+# weather_app
 
-A new Flutter project.
+This is flutter app.
 
-## Getting Started
+It will know you the weather in your city.
 
-This project is a starting point for a Flutter application.
+Permission:
+	location
+	
+Screenshots:
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Screenshot_1656309443](https://user-images.githubusercontent.com/68473706/175879333-55a8c9c6-4b40-412b-a3b5-59c52afc5952.png)
